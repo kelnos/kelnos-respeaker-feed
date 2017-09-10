@@ -1,0 +1,12 @@
+--- funcsigs-1.0.2/setup.py.orig	2017-09-10 05:39:11.133353582 -0700
++++ funcsigs-1.0.2/setup.py	2017-09-10 05:39:20.725249094 -0700
+@@ -26,9 +26,6 @@
+     description="Python function signatures from PEP362 for Python 2.6, 2.7 and 3.2+",
+     long_description=open('README.rst').read(),
+     license="ASL",
+-    extras_require = {
+-        ':python_version<"2.7"': ['ordereddict'],
+-    },
+     setup_requires = ["setuptools>=17.1"],
+     classifiers = [
+         'Development Status :: 4 - Beta',
