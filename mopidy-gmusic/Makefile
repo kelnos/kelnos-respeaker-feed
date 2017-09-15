@@ -24,7 +24,7 @@ define Package/mopidy-gmusic
 	CATEGORY:=ReSpeaker
 	TITLE:=mopidy-gmusic
 	URL:=https://pypi.python.org/pypi/Mopidy-GMusic
-	DEPENDS+=+python +mopidy +pykka +python-cachetools +python-gmusicapi +python-requests +python-setuptools
+	DEPENDS+=+python +mopidy +pykka +python-cachetools +python-gmusicapi +python-requests +python-setuptools +glib-networking
 endef
 
 define Package/mopidy-gmusic/description
